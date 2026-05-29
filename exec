@@ -1,0 +1,1 @@
+g++ main.cpp -o bouncer $(llvm-config --cppflags) $(llvm-config --ldflags) -lclang

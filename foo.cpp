@@ -5,4 +5,7 @@ struct foo{
 struct bar{
 	int value;
 	foo struct_value;
+	int add(){
+		return 'a' + 1;
+	}
 }
